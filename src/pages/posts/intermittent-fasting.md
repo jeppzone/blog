@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Hello static content!"
-description: "Bring your markdown, we'll handle the rest"
-publishDate: "11 Jul 2022"
+title: "Intermittent fasting!"
+description: "Heal your gut"
+publishDate: "31 Jul 2022"
 heroImage:
   src: "/assets/blog/introducing-astro.jpg"
   alt: "Space shuttle leaving curved trail in the sky"
