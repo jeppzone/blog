@@ -20,31 +20,27 @@ const {
 ---
 
 <html>
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
 
-	<body>
-		<Header />
-		<article class="wrapper content">
-			<header>
-				{heroImage && (
-					<img
-						width="720"
-						height="420"
-						loading="lazy"
-						src={heroImage.src}
-						alt={heroImage.alt}
-					/>
-				)}
-				<h1 class="title">{title}</h1>
-				<time>{publishDate}</time>
-			</header>
-			<main>
-				<slot></slot>
-			</main>
-		</article>
-	</body>
+<head>
+	<BaseHead title={title} description={description} />
+</head>
+
+<body>
+	<Header />
+	<article class="wrapper content">
+		<header>
+			{heroImage && (
+			<img width="720" height="500" loading="lazy" src={heroImage.src} alt={heroImage.alt} />
+			)}
+			<h1 class="title">{title}</h1>
+			<time>{publishDate}</time>
+		</header>
+		<main>
+			<slot></slot>
+		</main>
+	</article>
+</body>
+
 </html>
 
 <style>
@@ -54,7 +50,7 @@ const {
 		object-position: center;
 		margin-top: 2rem;
 		margin-bottom: 4rem;
-		max-width: 1280px;
+		max-width: 950px;
 	}
 
 	@media (max-width: 50em) {
