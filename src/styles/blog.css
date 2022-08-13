@@ -38,7 +38,7 @@
 
 :root {
 	color-scheme: light;
-	--theme-accent: var(--color-orange);
+	--theme-accent: var(--color-blue);
 	--theme-accent-rgb: var(--color-orange-rgb);
 	--theme-accent-opacity: 0.1;
 	--theme-divider: var(--color-gray-100);
@@ -166,14 +166,14 @@ a {
 	gap: 0.5rem;
 }
 
-a > code {
+a>code {
 	position: relative;
 	color: var(--theme-accent);
 	background: transparent;
 	text-underline-offset: var(--padding-block);
 }
 
-a > code::before {
+a>code::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -218,7 +218,7 @@ code {
 	word-break: break-word;
 }
 
-pre.astro-code > code {
+pre.astro-code>code {
 	all: unset;
 }
 

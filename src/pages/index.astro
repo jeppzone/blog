@@ -32,7 +32,7 @@ const posts = unsortedPosts.sort(function (a, b) {
 			<section aria-label="Blog post list">
 				{posts.map(({ url, frontmatter }) => (
 				<BlogPostPreview title={frontmatter.title} description={frontmatter.description}
-					publishDate={frontmatter.publishDate} url={url} />
+					publishDate={frontmatter.publishDate} url={url} heroImage={frontmatter.heroImage} />
 				))}
 			</section>
 		</main>
