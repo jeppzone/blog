@@ -1,0 +1,19 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Profile from "../components/Profile.astro";
+
+let title = "About";
+let description = "About";
+---
+
+<head>
+  <BaseHead title={title} description={description} />
+</head>
+
+<body>
+  <Header></Header>
+  <div class="wrapper">
+    <Profile></Profile>
+  </div>
+</body>
