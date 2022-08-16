@@ -9,11 +9,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/partytown": "^1.0.0",
     "@astrojs/preact": "^0.5.2",
     "astro": "^1.0.0-rc.3"
   },
   "dependencies": {
+    "@julian_cataldo/astro-analytics": "^0.11.4",
     "preact": "^10.7.3"
   }
 }
