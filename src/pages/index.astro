@@ -7,12 +7,13 @@ let title = "Welcome to my blog!";
 let description = "Your one stop shop for all things health-related.";
 
 // Use Astro.glob to fetch all post with associated frontmatter
+const nbrOfPostsToShow = 2;
 const unsortedPosts = await Astro.glob("./posts/*.md");
 const posts = unsortedPosts.sort(function (a, b) {
 	return (
 		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
 	);
-});
+}).slice(0, nbrOfPostsToShow);
 ---
 
 <html lang="en">
@@ -43,12 +44,11 @@ const posts = unsortedPosts.sort(function (a, b) {
 
 <style>
 	.content {
-		margin-top: 4rem;
-		margin-bottom: 8rem;
+		margin-top: 2rem;
 	}
 
 	.intro {
-		padding-bottom: 4rem;
+		padding-bottom: 2rem;
 		margin-bottom: 2rem;
 		border-bottom: 4px solid var(--theme-divider);
 	}
