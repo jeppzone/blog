@@ -1,20 +1,8 @@
----
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-
-let title = "Welcome to my blog!";
-let description = "Your one stop shop for all things health-related.";
----
-
-<head>
-  <BaseHead title={title} description={description} />
-</head>
-
 <body>
   <div class="card-container">
     <img class="round" src="/assets/blog/jesper_olsson_laine.jpg" alt="Jesper Olsson Laine" />
     <h3>Jesper Olsson Laine</h3>
-    <h6>Gothenburg</h6>
+    <h5>Gothenburg</h5>
     <p>Software developer and health enthusiast</p>
   </div>
 </body>
@@ -24,28 +12,25 @@ let description = "Your one stop shop for all things health-related.";
     box-sizing: border-box;
   }
 
-  h3 {
-    margin: 10px 0;
-  }
-
-  h6 {
-    margin: 5px 0;
+  h5 {
     text-transform: uppercase;
   }
 
   p {
-    font-size: 16px;
+    color: var(--color-black);
+    font-size: 18px;
   }
 
   .card-container {
     border-radius: 5px;
-    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-    color: #B3B8CD;
-    padding-top: 30px;
+    background-color: var(--color-gray-50);
+    box-shadow: 0px 10px 20px -10px var(--color-gray-900);
+    color: var(--color-black);
     position: relative;
     width: 100%;
     max-width: 100%;
     text-align: center;
+    padding-bottom: 1rem;
   }
 
   .card-container .round {
@@ -53,6 +38,7 @@ let description = "Your one stop shop for all things health-related.";
   }
 
   img {
+    padding-top: 1rem;
     width: 300px;
   }
 </style>

@@ -1,27 +1,62 @@
-<header class="wrapper">
+<header>
 	<nav>
-		<a href="/">
-			<span>Jeppzone's blog</span>
-		</a>
-		<a href="/about">
-			<span>About me</span>
-		</a>
+		<div class="fuz">
+			<a href="/">
+				<span>Home</span>
+			</a>
+			<a href="/about">
+				<span>About me</span>
+			</a>
+		</div>
 	</nav>
 </header>
 
 <style>
 	header {
-		padding-top: 1rem;
 		padding-bottom: 1rem;
-		height: 5rem;
+		padding-top: 1rem;
+		height: 3rem;
+		background-color: var(--color-black);
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.9;
 	}
 
-	nav {
+	.fuz {
+		width: 64ch;
 		display: flex;
 		justify-content: left;
 	}
 
+	@media screen and (max-width:1000px) {
+		.fuz {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+
+	nav {
+		display: flex;
+		justify-content: center;
+	}
+
 	a {
+		color: var(--color-white);
 		padding-right: 1rem;
+	}
+
+	a:hover {
+		color: rgba(var(--theme-accent-rgb));
+		text-decoration: none;
+		transition: 0.3s;
+	}
+
+	a:active,
+	a:focus {
+		outline: 0;
+		border: none;
+		-moz-outline-style: none;
 	}
 </style>
