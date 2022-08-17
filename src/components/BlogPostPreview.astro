@@ -10,7 +10,8 @@ export interface Props {
 	};
 }
 
-const { title, description, publishDate, url, heroImage } = Astro.props as Props;
+const { title, description, publishDate, url, heroImage } =
+	Astro.props as Props;
 ---
 
 <article class="post-preview">
@@ -23,19 +24,25 @@ const { title, description, publishDate, url, heroImage } = Astro.props as Props
 	<p>{description}</p>
 	<a href={url}>
 		<i>Read more</i>
-		<img width="720" height="460" loading="lazy" src={heroImage.src} alt={heroImage.alt} />
+		<img
+			width="720"
+			height="460"
+			loading="lazy"
+			src={heroImage.src}
+			alt={heroImage.alt}
+		/>
 	</a>
 </article>
 
 <style>
 	img {
-		width: 100vw;
+		width: 80vw;
+		height: auto;
 		object-fit: cover;
 		object-position: center;
 		margin-top: 2rem;
 		margin-bottom: 4rem;
-		max-width: 720px;
-		border-radius: 5px;
+		max-width: 63.5ch;
 	}
 
 	.post-preview {
