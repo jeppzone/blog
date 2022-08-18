@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: "../../layouts/BlogPost.astro"
 title: "Time-restricted eating"
 description: "Eat in sync with your inner clock"
@@ -33,4 +33,4 @@ When I was younger, I had a really strong urge to eat breakfast. I really had to
 
 ## Resources
  - The Circadian Code by Satchin Panda (Book)
- - Fast This Way by Dave Asprey (Book) 
+ - Fast This Way by Dave Asprey (Book)  -->

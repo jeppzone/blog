@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: "../../layouts/BlogPost.astro"
 title: "Hot & Cold Therapy"
 description: "The magic effects of temperature"
@@ -9,4 +9,4 @@ heroImage:
 ---
 
 ## Introduction
-Take cold showers!!!
+Take cold showers!!! -->

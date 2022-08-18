@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: "../../layouts/BlogPost.astro"
 title: "Metabolic syndrome"
 description: "A large risk factor behind many common diseases"
@@ -34,4 +34,4 @@ Insulin resistance means that the body's cell does not respond well to insulin. 
 
 ## Resources I like
  - https://www.youtube.com/watch?v=BoT0Qv0BIZs
- - Metabolical by Robert Lustig
+ - Metabolical by Robert Lustig -->

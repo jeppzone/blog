@@ -33,7 +33,8 @@ const posts = unsortedPosts
 					<p>{description}</p>
 					<i>This site is under construction</i>
 				</section>
-				<section aria-label="Blog post list">
+				<p>Posts coming soon!</p>
+				<!-- <section aria-label="Blog post list">
 					{
 						posts.map(({ url, frontmatter }) => (
 							<BlogPostPreview
@@ -45,25 +46,24 @@ const posts = unsortedPosts
 							/>
 						))
 					}
-				</section>
+				</section> -->
 			</main>
 		</div>
+		<style>
+			.content {
+				margin-top: 2rem;
+			}
+
+			.intro {
+				padding-bottom: 2rem;
+				margin-bottom: 2rem;
+				border-bottom: 4px solid var(--theme-divider);
+			}
+
+			h1 {
+				font-size: 2.5rem;
+				font-weight: 700;
+			}
+		</style>
 	</body>
 </html>
-
-<style>
-	.content {
-		margin-top: 2rem;
-	}
-
-	.intro {
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
-		border-bottom: 4px solid var(--theme-divider);
-	}
-
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 700;
-	}
-</style>
