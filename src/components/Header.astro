@@ -1,67 +1,67 @@
 <header>
-	<nav>
-		<div class="fuz">
-			<a href="/">
-				<span>Home</span>
-			</a>
-			<a href="/about">
-				<span>About me</span>
-			</a>
-			<a href="/posts">
-				<span>Posts</span>
-			</a>
-		</div>
-	</nav>
+  <nav>
+    <div class="fuz">
+      <a href="/">
+        <span>Home</span>
+      </a>
+      <a href="/posts">
+        <span>Posts</span>
+      </a>
+      <a href="/about">
+        <span>About me</span>
+      </a>
+    </div>
+  </nav>
 </header>
 
 <style>
-	header {
-		background-color: var(--color-black);
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		opacity: 0.9;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
+  header {
+    background-color: var(--color-black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-	.fuz {
-		height: 100%;
-		width: 63.5ch;
-		display: flex;
-		justify-content: left;
-		align-content: center;
-		align-items: center;
-	}
+  .fuz {
+    height: 100%;
+    width: 63.5ch;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+  }
 
-	@media screen and (max-width: 1000px) {
-		.fuz {
-			width: 100%;
-			justify-content: center;
-		}
-	}
+  @media screen and (max-width: 1000px) {
+    .fuz {
+      width: 100%;
+      justify-content: center;
+    }
+  }
 
-	nav {
-		display: flex;
-		justify-content: center;
-	}
+  nav {
+    display: flex;
+    justify-content: center;
+  }
 
-	a {
-		color: var(--color-white);
-		padding-right: 1rem;
-	}
+  a {
+    color: var(--color-white);
+    padding-right: 1rem;
+  }
 
-	a:hover {
-		text-decoration-color: var(--theme-accent);
-		text-underline-offset: 0.2rem;
-		text-decoration-thickness: 0.08rem;
-	}
+  a:hover {
+    text-decoration-color: var(--theme-accent);
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.08rem;
+  }
 
-	a:active,
-	a:focus {
-		outline: 0;
-		border: none;
-		-moz-outline-style: none;
-	}
+  a:active,
+  a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
 </style>
