@@ -3,9 +3,6 @@ layout: "../../layouts/BlogPost.astro"
 title: "Time-restricted eating"
 description: "Eat in sync with your inner clock"
 publishDate: "31 Jul 2022"
-heroImage:
-  src: "/assets/blog/food.jpg"
-  alt: "Clock"
 ---
 
 ## Introduction
