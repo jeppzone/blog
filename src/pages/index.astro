@@ -14,6 +14,10 @@ const posts = unsortedPosts
   .sort(function (a, b) {
     return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
   })
+  .filter((p) => {
+    console.log(p.frontmatter.title);
+    return !p.frontmatter.title.includes("Hot") && !p.frontmatter.title.includes("Carnivore");
+  })
   .slice(0, nbrOfPostsToShow);
 ---
 
