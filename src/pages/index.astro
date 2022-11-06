@@ -4,7 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import BlogPostPreview from "../components/BlogPostPreview.astro";
 
-let title = "Welcome to my blog!";
+let title = "The Jeppzone";
 let description = "Your one stop shop for all things health-related.";
 
 // Use Astro.glob to fetch all post with associated frontmatter
@@ -31,8 +31,7 @@ const posts = unsortedPosts
       <main class="content">
         <section class="intro">
           <h1>{title}</h1>
-          <p>{description}</p>
-          <i>This site is under construction</i>
+          <h3>Recent posts</h3>
         </section>
         <section aria-label="Blog post list">
           {
@@ -59,8 +58,7 @@ const posts = unsortedPosts
   }
 
   .intro {
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-bottom: 4px solid var(--theme-divider);
   }
 
