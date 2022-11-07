@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Welcome!"
 description: "Introducing my blog"
-publishDate: "6 Nov 2021"
+publishDate: "7 Nov 2022"
 ---
 
 <div style="display:flex; justify-content:center; margin-bottom: 10px;">
@@ -11,7 +11,7 @@ publishDate: "6 Nov 2021"
 
 ### The Jeppzone
 
-Hi there! A very warm welcome to those of you who have found their way here to my little space on the internet. My name is Jesper Olsson Laine, and I'm a Swedish 30-year-old software developer by profession and a health enthusiast by heart. In this blog, I will share experiences from my health journey, share my thoughts on different health-related subjects and to some extent go through what the research says on said subjects. I'm primarily writing this blog as a learning experience and as a way of documenting my health journey, but I also hope that some of you can find inspiration in the subjects that I write about and the experiences that I share.
+Hi there! A very warm welcome to those of you who have found their way here to my little space on the internet. My name is Jesper Olsson Laine, and I'm a Swedish 30-year-old software developer by profession and a health enthusiast by heart. In this blog, I will share experiences from my health journey, share my thoughts on different health-related subjects and to some extent go through what the research says on said subjects. I'm primarily writing this blog as a learning experience and as a way of documenting my health journey, but I also hope that some of you can find inspiration in the subjects that I write about and the experiences that I share. I'll aim to publish at least one post per week.
 
 ### Background
 

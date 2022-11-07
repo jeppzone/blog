@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Metabolic syndrome"
 description: "A large risk factor behind many common diseases"
-publishDate: "30 Jul 2022"
+publishDate: "8 Nov 2022"
 ---
 
 ## What is metabolic syndrome?
