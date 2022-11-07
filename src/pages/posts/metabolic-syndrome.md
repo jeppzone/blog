@@ -1,37 +1,62 @@
-<!-- ---
+---
 layout: "../../layouts/BlogPost.astro"
 title: "Metabolic syndrome"
 description: "A large risk factor behind many common diseases"
-publishDate: "30 Jul 2022"
-heroImage:
-  src: "/assets/blog/metabolic-syndrome.jpg"
-  alt: "Bloated stomach"
+publishDate: "8 Nov 2022"
 ---
 
-## Introduction
-Everybody has heard of cancer, diabetes, heart disease, stroke and so on. These are the often mentioned culprits when talking about diseases that are a threat public health. Metabolic syndrome however is less frequently discussed and is lesser known to the public. Metabolic syndrome is a collection of conditions that together increase your risk of developing these diseases. These conditions include
- - High blood pressure (Over 130/85 mmHg) or taking blood presure-lowering medications
- - High blood sugar (Fasting blood sugar level > 100 mg/dL) or taking glucose-lowering medications
- - Excess body fat around the waistline (Waistline >= 40 inches for men, >= 35 inches for women)
- - Abnormal cholesterol (HDL < 40 mg/dL for men, < 50 mg/dL for women) or tryglyceride levels (Trigclyercide > 150 mg/dL) 
+## What is metabolic syndrome?
 
-Having one of these conditions is bad enough, but can often be managed. Having more than one of these conditions simultaneously will greatly increase the risk of developing any of the aformentioned serious diseases: 
- - Heart attacks
- - Strokes
- - Type 2 diabetes
+Everybody has heard of cancer, diabetes, heart disease, stroke and so on. These are the often mentioned culprits when talking about diseases that are a threat to public health. Metabolic syndrome however is less frequently discussed and is lesser known to the public. Metabolic syndrome is a collection of conditions that together increase your risk of developing these diseases. These conditions include
 
-Metabolic syndrome is alsow known as Insulin resistance syndrome or Syndrome X.
+- High blood pressure or taking blood pressure-lowering medications
+- High blood sugar or taking glucose-lowering medications
+- Excess body fat around the waistline
+- Abnormal cholesterol or triglyceride levels
 
-Metabolic syndrome in turn has its own risk factors, the biggest and most serious being insulin resistance, which would explain why it's also called the Insulin resistance syndrome
+Having one of these conditions is bad enough, but can often be managed. Having more than one of these conditions simultaneously will greatly increase the risk of developing any of the aforementioned serious diseases:
 
-Insulin resistance means that the body's cell does not respond well to insulin. This leads to glucose staying in the blood stream, leading to high blood sugar, while the cells are deprived of nutrition since insulin is the storage hormone for nutrients. Insulin resistance can be aquired, hereditary or a mixture of both. Risk factors for insulin resistance include
- - Abdominal obesity
- - Physical inactivity
- - Aging
- - Hormonal inbalances
- - Medications
+- Heart attack
+- Stroke
+- Type 2 diabetes
 
+Metabolic syndrome in turn has its own risk factors, the biggest and most serious being **insulin resistance**, which would explain why it's also called the Insulin resistance syndrome or Syndrome X.
+
+## Insulin resistance
+
+Insulin resistance means that the body's cells do not respond well to insulin. This means that the pancreas gradually needs to start pumping out more and more insulin. If the pancreas can't pump out enough insulin, more glucose than normal will stay in the bloodstream, leading to higher blood sugar. This is called prediabetes. Not only does this lead to a higher than normal blood sugar, but it can also lead to energy and nutrient deficiencies. Since insulin is the storage hormone for nutrients, not making enough of it will lead to malabsorption. The body will most likely signal that it's still in need of food even though the person might have just eaten, since a significant portion of the nutrients does not reach the cell and is stuck in the bloodstream. This will in turn often lead to overeating and indulging in the wrong foods, and now we have a vicious cycle since this will worsen the insulin resistance. Insulin resistance is largely a result of lifestyle factors, but there are also hereditary factors in play.
+
+#### Risk factors for insulin resistance
+
+Risk factors for insulin resistance include, but are not limited to:
+
+- Abdominal obesity
+- Physical inactivity
+- Hormonal imbalances
+- Medications
+- Excess consumption of carbohydrates
+- Sleep problems, especially sleep apnea
+- Diabetes in close family members
+
+#### Symptoms of insulin resistance
+
+Insulin resistance and prediabetes usually have no symptoms at all. But here's a non-exhaustive list of some of the plausible symptoms of insulin resistance and prediabetes.
+
+- Extreme thirst or hunger
+- Feeling hungry even after a meal
+- Frequent urination
+- Feeling unusually tired
+- High blood sugar result on tests
+
+#### Preventing or reversing insulin resistance
+
+There are a lot of remedies mentioned on the internet on what to do for preventing and reversing insulin resistance. I don't agree with all of them, but to sum up, I would focus on exercise in the form of brisk walks and strength training and a low-carb diet. I am not a doctor, so I can't give medical advice on this, but there is a lot of research pointing in this direction. For example, [this study](https://pubmed.ncbi.nlm.nih.gov/34582545/) discussed how a low-carb diet showed improvements in insulin resistance. [This study](https://pubmed.ncbi.nlm.nih.gov/18171435/) talks about how exercise can increase **insulin sensitivity**, which is the opposite of insulin resistance, both short-term and long-term through repeated exercise. As I like to point out, the only way to really know if something works for you is to actually test it. There can be a thousand studies "proving" that something works, but the only way you will actually know if it works for you is to try it yourself. Testing something for a month will be safe in most cases and will often give you a good enough indication if it is something that works for you or not.
+
+#### Summary
+
+Metabolic syndrome is one of the most significant risk factors behind almost all of our most common diseases. In turn, the biggest risk factor behind metabolic syndrome is insulin resistance. Going out of your way to prevent or reverse this condition is a very good step towards better health. Insulin resistance and metabolic syndrome will be mentioned a lot throughout my posts, which is why I wanted to write this post first as a background to the subject. I'll see you in the next post!
 
 ## Resources I like
- - https://www.youtube.com/watch?v=BoT0Qv0BIZs
- - Metabolical by Robert Lustig -->
+
+- [This youtube video](https://www.youtube.com/watch?v=BoT0Qv0BIZs) by Alila Medical Media - A short and concise video explaining metabolic syndrome.
+- [Metabolical](https://www.amazon.com/Metabolical-Processed-Nutrition-Modern-Medicine/dp/0063027712) by Dr. Robert Lustig - A fantastic book outlining everything you need to know about chronic disease, metabolic syndrome, processed food and a lot more.

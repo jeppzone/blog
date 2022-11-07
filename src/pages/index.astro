@@ -1,69 +1,74 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import BlogPostPreview from "../components/BlogPostPreview.astro";
 
-let title = "Welcome to my blog!";
+let title = "The Jeppzone";
 let description = "Your one stop shop for all things health-related.";
 
 // Use Astro.glob to fetch all post with associated frontmatter
-const nbrOfPostsToShow = 2;
+const nbrOfPostsToShow = 3;
 const unsortedPosts = await Astro.glob("./posts/*.md");
 const posts = unsortedPosts
-	.sort(function (a, b) {
-		return (
-			new Date(b.frontmatter.publishDate).valueOf() -
-			new Date(a.frontmatter.publishDate).valueOf()
-		);
-	})
-	.slice(0, nbrOfPostsToShow);
+  .sort(function (a, b) {
+    return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
+  })
+  .filter((p) => {
+    return (
+      !p.frontmatter.title.includes("Hot") &&
+      !p.frontmatter.title.includes("Carnivore") &&
+      !p.frontmatter.title.includes("Time-restricted") &&
+      !p.frontmatter.title.includes("Metabolic")
+    );
+  })
+  .slice(0, nbrOfPostsToShow);
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
 
-	<body>
-		<Header />
-		<div class="wrapper">
-			<main class="content">
-				<section class="intro">
-					<h1>{title}</h1>
-					<p>{description}</p>
-					<i>This site is under construction</i>
-				</section>
-				<p>Posts coming soon!</p>
-				<!-- <section aria-label="Blog post list">
-					{
-						posts.map(({ url, frontmatter }) => (
-							<BlogPostPreview
-								title={frontmatter.title}
-								description={frontmatter.description}
-								publishDate={frontmatter.publishDate}
-								url={url}
-								heroImage={frontmatter.heroImage}
-							/>
-						))
-					}
-				</section> -->
-			</main>
-		</div>
-		<style>
-			.content {
-				margin-top: 2rem;
-			}
-
-			.intro {
-				padding-bottom: 2rem;
-				margin-bottom: 2rem;
-				border-bottom: 4px solid var(--theme-divider);
-			}
-
-			h1 {
-				font-size: 2.5rem;
-				font-weight: 700;
-			}
-		</style>
-	</body>
+  <body>
+    <Header />
+    <div class="wrapper">
+      <main class="content">
+        <section class="intro">
+          <h1>{title}</h1>
+          <h3>Recent posts</h3>
+        </section>
+        <section aria-label="Blog post list">
+          {
+            posts.map(({ url, frontmatter }) => (
+              <BlogPostPreview
+                title={frontmatter.title}
+                description={frontmatter.description}
+                publishDate={frontmatter.publishDate}
+                url={url}
+                heroImage={frontmatter.heroImage}
+              />
+            ))
+          }
+        </section>
+      </main>
+    </div>
+  </body>
+  <Footer />
 </html>
+
+<style>
+  .content {
+    margin-top: 2rem;
+  }
+
+  .intro {
+    margin-bottom: 1rem;
+    border-bottom: 4px solid var(--theme-divider);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+</style>
