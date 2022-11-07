@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "What is metabolic syndrome?"
+title: "Metabolic syndrome - The hidden culprit"
 description: "Metabolic syndrome: A large risk factor behind many common diseases"
 publishDate: "7 Nov 2022 10:38"
 ---

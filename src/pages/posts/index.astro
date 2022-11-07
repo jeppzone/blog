@@ -15,10 +15,9 @@ const posts = unsortedPosts
   })
   .filter((p) => {
     return (
-      !p.frontmatter.title.includes("Hot") &&
-      !p.frontmatter.title.includes("Carnivore") &&
-      !p.frontmatter.title.includes("time-restricted") &&
-      !p.frontmatter.title.includes("Metabolic")
+      !p.frontmatter.title?.toLowerCase().includes("hot") &&
+      !p.frontmatter.title?.toLowerCase().includes("carnivore") &&
+      !p.frontmatter.title?.toLowerCase().includes("time-restricted")
     );
   });
 ---
