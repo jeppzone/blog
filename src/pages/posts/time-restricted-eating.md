@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Time-restricted eating"
-description: "Eat in sync with your inner clock"
-publishDate: "31 Jul 2022"
+title: "An introduction to time-restricted eating"
+description: "Time-restricted eating: Eat in sync with your inner clock"
+publishDate: "9 Nov 2022"
 ---
 
 ## Introduction
