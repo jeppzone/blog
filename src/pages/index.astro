@@ -15,11 +15,7 @@ const posts = unsortedPosts
     return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
   })
   .filter((p) => {
-    return (
-      !p.frontmatter.title?.toLowerCase().includes("hot") &&
-      !p.frontmatter.title?.toLowerCase().includes("carnivore") &&
-      !p.frontmatter.title?.toLowerCase().includes("time-restricted")
-    );
+    return !p.frontmatter.title?.toLowerCase().includes("hot") && !p.frontmatter.title?.toLowerCase().includes("carnivore");
   })
   .slice(0, nbrOfPostsToShow);
 ---
