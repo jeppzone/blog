@@ -2,7 +2,7 @@
   <nav>
     <div class="fuz">
       <a href="/">
-        <img src="/assets/blog/logo-no-background.png" alt="jeppzone logo" width="100" height="60" />
+        <span>Home</span>
       </a>
       <a href="/posts">
         <span>Posts</span>
@@ -22,24 +22,26 @@
     left: 0;
     right: 0;
     opacity: 0.9;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     z-index: 1000;
   }
 
   .fuz {
     height: 100%;
-    width: 63.5ch;
+    width: 85ch;
     display: flex;
     justify-content: left;
     align-content: center;
     align-items: center;
+    margin-left: 68px;
   }
 
   @media screen and (max-width: 1000px) {
     .fuz {
       width: 100%;
       justify-content: center;
+      margin-left: 0;
     }
   }
 
