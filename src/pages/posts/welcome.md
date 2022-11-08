@@ -9,7 +9,7 @@ publishDate: "7 Nov 2022 09:30"
 <img src="/assets/blog/jesper_olsson_laine.jpg" alt="Jesper Olsson Laine" title="Jesper Olsson Laine" width="300px" style="border-radius: 50%;" />
 </div>
 
-### The Jeppzone
+## The Jeppzone
 
 Hi there! A very warm welcome to those of you who have found their way here to my little space on the internet. My name is Jesper Olsson Laine, and I'm a Swedish 30-year-old software developer by profession and a health enthusiast by heart. In this blog, I will share experiences from my health journey, share my thoughts on different health-related subjects and to some extent go through what the research says on said subjects. I'm primarily writing this blog as a learning experience and as a way of documenting my health journey, but I also hope that some of you can find inspiration in the subjects that I write about and the experiences that I share. I'll aim to publish at least one post per week.
 
@@ -19,7 +19,7 @@ To give you some context and background as to why I'm doing this, I have a long 
 
 I think my real interest in health and lifestyle started somewhere around the summer of 2021. My girlfriend suggested I listen to Dr. Mark Hyman's podcast [The Doctor's Pharmacy](https://drhyman.com/blog/category/podcasts/) and I never really looked back. From this podcast, I found a myriad of other interesting podcasts and books. I mention some of my favorite resources down below, and I will list relevant resources in every blog post as well. I hope you'll enjoy your stay here and that your interest for health and lifestyle will spark or grow even bigger than it already is!
 
-### Resources I like
+## Resources I like
 
 - [The Doctor's Pharmacy](https://drhyman.com/blog/category/podcasts/) - Podcast by world-famous Dr. Mark Hyman. Covers all things health, lifestyle and environment. A great starting place for people looking to being their health journey.
 - [High Intensity Health](https://www.youtube.com/c/Highintensityhealth) - Youtube channel and podcast by Mike Mutzel. A great resource for people looking for the science behind a variety of health concepts like fasting, exercise, hot & cold therapy and much more.
