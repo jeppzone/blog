@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Metabolic syndrome - The hidden culprit"
+title: "Metabolic syndrome and insulin resistance"
 description: "Metabolic syndrome: A large risk factor behind many common diseases"
 publishDate: "7 Nov 2022 10:38"
 ---
