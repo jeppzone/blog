@@ -1,6 +1,6 @@
 ---
 import "../styles/blog.css";
-import Analytics from "@julian_cataldo/astro-analytics/Analytics.astro";
+import { GoogleAnalytics } from "astro-google-analytics";
 
 export interface Props {
   title: string;
@@ -11,7 +11,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description } = Astro.props;
 ---
 
-<Analytics id="G-D1X1QPCBDF" />
+<GoogleAnalytics id="G-D1X1QPCBDF" />
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
