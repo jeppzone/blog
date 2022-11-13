@@ -6,7 +6,7 @@ publishDate: "7 Nov 2022 09:30"
 ---
 
 <div style="display:flex; justify-content:center; margin-bottom: 10px;">
-<img src="/assets/blog/jesper_olsson_laine.jpg" alt="Jesper Olsson Laine" title="Jesper Olsson Laine" width="300px" style="border-radius: 50%;" />
+<img src="https://i.ibb.co/mHtqVph/Jesper-olsson-laine.jpg" alt="Jesper Olsson Laine" title="Jesper Olsson Laine" width="300px" style="border-radius: 50%;" />
 </div>
 
 ## The Jeppzone
