@@ -3,6 +3,9 @@ layout: "../../layouts/BlogPost.astro"
 title: "I quit caffeine cold turkey"
 description: "I quit caffeine cold turkey: Here's what happened. Caffeine explained"
 publishDate: "13 Nov 2022 07:53"
+heroImage:
+  src: "/assets/blog/coffee.webp"
+  alt: "Coffee machine"
 ---
 
 ## My experience quitting caffeine cold turkey
