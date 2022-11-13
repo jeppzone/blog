@@ -14,9 +14,11 @@ let description = "Describes who Jesper is and what the Jeppzone blog is.";
   </head>
   <body>
     <Header />
-    <article class="wrapper content">
-      <Profile />
-    </article>
+    <div class="wrapper">
+      <main class="content">
+        <Profile />
+      </main>
+    </div>
     <Footer />
   </body>
 </html>
@@ -27,7 +29,6 @@ let description = "Describes who Jesper is and what the Jeppzone blog is.";
   }
   .wrapper {
     min-height: 100vh;
-    margin: 0;
     padding-top: 3rem;
   }
 </style>
