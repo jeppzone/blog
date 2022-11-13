@@ -4,7 +4,7 @@ title: "I quit caffeine cold turkey"
 description: "I quit caffeine cold turkey: Here's what happened. Caffeine explained"
 publishDate: "13 Nov 2022 07:53"
 heroImage:
-  src: "/assets/blog/coffee.webp"
+  src: "https://i.ibb.co/yS2bQyV/coffee.webp"
   alt: "Coffee machine"
 ---
 
