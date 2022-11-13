@@ -8,7 +8,7 @@ let title = "The Jeppzone Blog";
 let description = "The Jeppzone blog aims to be a source of inspiration for health and lifestyle-related content.";
 
 // Use Astro.glob to fetch all post with associated frontmatter
-const nbrOfPostsToShow = 3;
+const nbrOfPostsToShow = 5;
 const unsortedPosts = await Astro.glob("./posts/*.md");
 const posts = unsortedPosts
   .sort(function (a, b) {
