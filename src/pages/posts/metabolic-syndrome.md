@@ -3,6 +3,9 @@ layout: "../../layouts/BlogPost.astro"
 title: "Metabolic syndrome and insulin resistance"
 description: "Metabolic syndrome: A large risk factor behind many common diseases"
 publishDate: "7 Nov 2022 10:38"
+heroImage:
+  src: "https://i.ibb.co/W3DbW45/Pexels-kat-smith-735966.jpg"
+  alt: "Bloated stomach"
 ---
 
 ## What is metabolic syndrome?
