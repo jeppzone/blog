@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "https://blog.jeppzone.com/*"
-  to = "https://jeppzone.com/:splat"
-  status = 301
-  force = false
-  query = {path = ":path"}
