@@ -4,11 +4,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    preact(),
-    sitemap({
-      filter: (page) => page !== "https://blog.jeppzone.com/posts/my-carnivore-diaries" && page !== "https://blog.jeppzone.com/hot-and-cold-therapy",
-    }),
-  ],
-  site: `https://blog.jeppzone.com`,
+  integrations: [preact(), sitemap()],
+  site: `https://jeppzone.com`,
 });
