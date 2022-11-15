@@ -12,17 +12,18 @@ export interface Props {
       src: string;
       alt: string;
     };
+    canonicalUrl: string;
   };
 }
 
 const {
-  content: { title, description, publishDate, heroImage },
+  content: { title, description, publishDate, heroImage, canonicalUrl },
 } = Astro.props as Props;
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} image={heroImage?.src} />
+    <BaseHead title={title} description={description} canonicalUrl={canonicalUrl} image={heroImage?.src} />
   </head>
 
   <body>

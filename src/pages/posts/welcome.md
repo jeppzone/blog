@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Welcome to The Jeppzone!"
 description: "Introducing my health & lifestyle blog"
 publishDate: "7 Nov 2022 09:30"
+canonicalUrl: "https://jeppzone.com/posts/welcome/"
 ---
 
 <div style="display:flex; justify-content:center; margin-bottom: 10px;">

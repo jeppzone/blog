@@ -6,6 +6,7 @@ publishDate: "7 Nov 2022 10:38"
 heroImage:
   src: "https://i.ibb.co/W3DbW45/Pexels-kat-smith-735966.jpg"
   alt: "Bloated stomach"
+canonicalUrl: "https://jeppzone.com/posts/metabolic-syndrome/"
 ---
 
 ## What is metabolic syndrome?

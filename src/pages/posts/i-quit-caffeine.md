@@ -6,6 +6,7 @@ publishDate: "13 Nov 2022 07:53"
 heroImage:
   src: "https://i.ibb.co/tPhdWQg/Coffee.webp"
   alt: "Coffee machine"
+canonicalUrl: "https://jeppzone.com/posts/i-quit-caffeine/"
 ---
 
 ## My experience quitting caffeine cold turkey
