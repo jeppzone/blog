@@ -31,8 +31,10 @@ const posts = unsortedPosts
       <main class="content">
         <section class="intro">
           <h1>{title}</h1>
-          <i>A blog about all things health and lifestyle</i>
-          <h2>Recent posts</h2>
+          <h2>
+            Hi! I'm Jesper. A software developer and health enthusiast. In this blog I write about all things health and lifestyle. Happy reading!
+          </h2>
+          <h3>Recent posts</h3>
         </section>
         <section aria-label="Blog post list">
           {
@@ -49,26 +51,26 @@ const posts = unsortedPosts
         </section>
       </main>
     </div>
+    <Footer />
   </body>
-  <Footer />
+
+  <style>
+    body {
+      margin: 0;
+    }
+    .wrapper {
+      min-height: 100vh;
+      padding-top: 3rem;
+    }
+
+    .intro {
+      margin-bottom: 1rem;
+      border-bottom: 4px solid var(--theme-divider);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+  </style>
 </html>
-
-<style>
-  body {
-    margin: 0;
-  }
-  .wrapper {
-    min-height: 100vh;
-    padding-top: 3rem;
-  }
-
-  .intro {
-    margin-bottom: 1rem;
-    border-bottom: 4px solid var(--theme-divider);
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
-</style>
