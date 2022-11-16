@@ -63,4 +63,4 @@ Metabolic syndrome is one of the most significant risk factors behind almost all
 ## Resources I like
 
 - [This youtube video](https://www.youtube.com/watch?v=BoT0Qv0BIZs) by Alila Medical Media - A short and concise video explaining metabolic syndrome.
-- [Metabolical](https://www.amazon.com/Metabolical-Processed-Nutrition-Modern-Medicine/dp/0063027712) by Dr. Robert Lustig - A fantastic book outlining everything you need to know about chronic disease, metabolic syndrome, processed food and a lot more.
+- [Metabolical (affiliate link)](https://amzn.to/3V1y3I1) by Dr. Robert Lustig - A fantastic book outlining everything you need to know about chronic disease, metabolic syndrome, processed food and a lot more.

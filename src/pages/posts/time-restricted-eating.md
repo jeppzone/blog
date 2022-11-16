@@ -53,6 +53,6 @@ When I was younger, I had a really strong urge to eat breakfast. I really had to
 
 ## Resources I like
 
-- [The Circadian Code](https://www.amazon.com/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X) - A book by Satchin Panda on how time-restricted eating connects to our circadian rhythm.
-- [Fast This Way](https://www.amazon.com/s?k=Fast+This+Way&i=stripbooks-intl-ship&crid=2CBHKSQ37GIBU&sprefix=fast+this+way%2Cstripbooks-intl-ship%2C160&ref=nb_sb_noss_1) - A book on how "the father of biohacking" Dave Asprey incorporates fasting into his life.
+- [The Circadian Code (affiliate link)](https://amzn.to/3X7Ja4c) - A book by Satchin Panda on how time-restricted eating connects to our circadian rhythm.
+- [Fast This Way (affiliate link)](https://amzn.to/3UM2sdF) - A book on how "the father of biohacking" Dave Asprey incorporates fasting into his life.
 - [How To Do Intermittent Fasting For Health](https://www.youtube.com/watch?v=fZhkFOCeZMQ) - Youtube video by Dr. Sten Ekberg.
