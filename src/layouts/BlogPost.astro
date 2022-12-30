@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import ReadMore from "../components/ReadMore.astro";
 
 export interface Props {
   content: {
@@ -37,6 +38,7 @@ const {
       <main>
         <slot />
       </main>
+      <ReadMore currentTitle={title} />
     </article>
   </body>
   <Footer />

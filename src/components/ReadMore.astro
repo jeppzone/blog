@@ -1,0 +1,32 @@
+---
+const { currentTitle } = Astro.props;
+const nbrOfPostsToShow = 3;
+const unsortedPosts = await Astro.glob("../pages/posts/*.md");
+const posts = unsortedPosts
+  .sort(function (a, b) {
+    return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
+  })
+  .filter((p) => {
+    return !(p.frontmatter.title?.toLowerCase() === currentTitle?.toLowerCase());
+  })
+  .slice(0, nbrOfPostsToShow);
+---
+
+<div>
+  <h2>Recent posts</h2>
+  <section aria-label="Blog post list">
+    {
+      posts.map(({ url, frontmatter }) => (
+        <a href={url}>
+          <h3 class="title">{frontmatter.title}</h3>
+        </a>
+      ))
+    }
+  </section>
+
+  <style>
+    a {
+      font-weight: bold;
+    }
+  </style>
+</div>
