@@ -1,0 +1,114 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import GamingFooter from "../../components/GamingFooter.astro";
+import BlogPostPreview from "../../components/BlogPostPreview.astro";
+
+let title = "Jeppzone Gaming Landingpage";
+let description = "This site contains information about what resources are available for Jeppzone Gaming";
+
+const nbrOfPostsToShow = 100;
+const unsortedPosts = await Astro.glob("./blog/*.md");
+const posts = unsortedPosts
+  .sort(function (a, b) {
+    return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
+  })
+  .slice(0, nbrOfPostsToShow);
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      image="https://i.ibb.co/qNSvxXB/j-logo-high-res.png"
+      canonicalUrl="https://jeppzone.com/gaming/"
+    />
+  </head>
+
+  <body>
+    <Header />
+    <img class="banner" src="/assets/blog/gaming_banner.png" alt="JEPPZONE LIFESTYLE" />
+    <div class="wrapper">
+      <main class="content">
+        <section class="intro">
+          <h1>Welcome to the gaming section of my website!</h1>
+          <h2>
+            My gaming endeavors are best followed on my <a href="https://www.youtube.com/@jeppzonegaming">
+              Youtube Channel
+              <img class="icon" src="/assets/blog/youtube-icon.png" alt="Youtube Icon" />
+            </a>, but I will also post blog-style articles on this website.
+          </h2>
+          <div class="video-container">
+            <iframe width="1000" height="600" src="https://www.youtube.com/embed?listType=playlist&list=PLlBISr08GuCJA5yEtP2h4mTVGtvK48rkM"> </iframe>
+          </div>
+          <h3>Blog posts</h3>
+        </section>
+        <section aria-label="Blog post list">
+          {
+            posts.map(({ url, frontmatter }) => (
+              <BlogPostPreview
+                title={frontmatter.title}
+                description={frontmatter.description}
+                publishDate={frontmatter.publishDate}
+                url={url}
+                heroImage={frontmatter.heroImage}
+              />
+            ))
+          }
+        </section>
+      </main>
+    </div>
+  </body>
+  <GamingFooter />
+</html>
+
+<style>
+  body {
+    margin: 0;
+  }
+  .content {
+    margin-top: 2rem;
+  }
+  .wrapper {
+    min-height: 100vh;
+    padding-top: 1rem;
+  }
+
+  .banner {
+    min-width: 400px;
+    width: 100%;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .intro {
+    margin-bottom: 1rem;
+  }
+  .icon {
+    width: 35px;
+    align-items: center;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>

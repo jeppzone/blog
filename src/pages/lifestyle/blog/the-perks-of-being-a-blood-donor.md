@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../../layouts/BlogPost.astro"
 title: "The perks of being a blood donor"
 description: "There are multiple reasons to become a blood donor. It can save the lives of others while improving your health as well. Read this post to find out more."
 publishDate: "9 Jan 2023 09:00"

@@ -1,0 +1,32 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import LifestyleFooter from "../components/LifestyleFooter.astro";
+import BlogPost from "./BlogPost.astro";
+
+export interface Props {
+  content: {
+    title: string;
+    description: string;
+    publishDate: string;
+    heroImage?: {
+      src: string;
+      alt: string;
+    };
+    canonicalUrl: string;
+  };
+}
+
+const {
+  content: { title, description, heroImage, canonicalUrl },
+} = Astro.props as Props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} canonicalUrl={canonicalUrl} image={heroImage?.src} />
+  </head>
+  <BlogPost content={Astro.props.content} />
+  <LifestyleFooter />
+
+
+</html>

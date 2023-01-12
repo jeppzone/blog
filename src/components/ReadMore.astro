@@ -1,7 +1,7 @@
 ---
 const { currentTitle } = Astro.props;
 const nbrOfPostsToShow = 3;
-const unsortedPosts = await Astro.glob("../pages/posts/*.md");
+const unsortedPosts = await Astro.glob("../pages/lifestyle/blog/*.md");
 const posts = unsortedPosts
   .sort(function (a, b) {
     return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();

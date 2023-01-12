@@ -9,7 +9,7 @@ let description = "The Jeppzone blog aims to be a source of inspiration for heal
 
 // Use Astro.glob to fetch all post with associated frontmatter
 const nbrOfPostsToShow = 10;
-const unsortedPosts = await Astro.glob("./posts/*.md");
+const unsortedPosts = await Astro.glob("./lifestyle/blog/*.md");
 const posts = unsortedPosts
   .sort(function (a, b) {
     return new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf();
@@ -30,24 +30,20 @@ const posts = unsortedPosts
     <div class="wrapper">
       <main class="content">
         <section class="intro">
-          <h1>{title}</h1>
-          <h2>
-            Hi! I'm Jesper. A software developer and health enthusiast. In this blog I write about all things health and lifestyle. Happy reading!
-          </h2>
-          <h3>Recent blog posts</h3>
+          <img class="round" src="https://i.ibb.co/mHtqVph/Jesper-olsson-laine.jpg" alt="Jesper Olsson Laine" />
+          <h1>Jesper "Jeppzone" Olsson Laine</h1>
+          <h2>Hi! I'm Jesper. A software developer, gamer and health enthusiast.</h2>
+          <h3>
+            I like to create videos and write articles about these topics. Feel free to check out my content or read more about me in the <a
+              href="/lifestyle">about section</a>
+          </h3>
         </section>
-        <section aria-label="Blog post list">
-          {
-            posts.map(({ url, frontmatter }) => (
-              <BlogPostPreview
-                title={frontmatter.title}
-                description={frontmatter.description}
-                publishDate={frontmatter.publishDate}
-                url={url}
-                heroImage={frontmatter.heroImage}
-              />
-            ))
-          }
+        <section>
+          <div class="topics">
+            <a href="/gaming"><div class="topic"><img src="/assets/blog/gaming_thumbnail.png" /></div></a>
+            <a href="/lifestyle"><div class="topic"><img src="/assets/blog/lifestyle_thumbnail.png" /></div></a>
+            <!-- <a href="/tech"><div class="topic"><img src="/assets/blog/tech_thumbnail.png" /></div></a> -->
+          </div>
         </section>
       </main>
     </div>
@@ -66,11 +62,37 @@ const posts = unsortedPosts
     .intro {
       margin-bottom: 1rem;
       border-bottom: 4px solid var(--theme-divider);
+      text-align: center;
     }
 
     h1 {
       font-size: 2.5rem;
       font-weight: 700;
+    }
+    .round {
+      border-radius: 50%;
+    }
+    .intro img {
+      width: 300px;
+    }
+    .topic {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .topic img {
+      border-radius: 5px;
+      width: 300px;
+    }
+    .topics {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 700px) {
+      .topics {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   </style>
 </html>
