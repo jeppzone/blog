@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "How sleep works and my experience with it"
 description: "How sleep works with circadian rhythms, sleep schedules and sleep stages"
 publishDate: "20 Nov 2022 17:30"

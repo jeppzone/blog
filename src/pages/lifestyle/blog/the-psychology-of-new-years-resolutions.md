@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "The psychology of new year's resolutions"
 description: "Why do new year's resolutions fail and what can we do about it? How we can write better resolutions"
 publishDate: "29 Dec 2022 13:50"

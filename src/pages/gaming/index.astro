@@ -45,70 +45,58 @@ const posts = unsortedPosts
           <h3>Blog posts</h3>
         </section>
         <section aria-label="Blog post list">
-          {
-            posts.map(({ url, frontmatter }) => (
-              <BlogPostPreview
-                title={frontmatter.title}
-                description={frontmatter.description}
-                publishDate={frontmatter.publishDate}
-                url={url}
-                heroImage={frontmatter.heroImage}
-              />
-            ))
-          }
+          <div class="recent-posts">
+            {
+              posts.map(({ url, frontmatter }) => (
+                <a href={url}>
+                  <div
+                    class="recent-post"
+                    style={`background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(${frontmatter.heroImage.src})`}
+                  >
+                    <h4>{frontmatter.title}</h4>
+                  </div>
+                </a>
+              ))
+            }
+          </div>
         </section>
       </main>
     </div>
+    <GamingFooter />
+    <style>
+      body {
+        margin: 0;
+      }
+      .content {
+        margin-top: 2rem;
+      }
+      .wrapper {
+        min-height: 100vh;
+        padding-top: 1rem;
+      }
+
+      .banner {
+        min-width: 400px;
+        width: 100%;
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      .intro {
+        margin-bottom: 1rem;
+      }
+      .icon {
+        width: 35px;
+        align-items: center;
+      }
+    </style>
   </body>
-  <GamingFooter />
 </html>
-
-<style>
-  body {
-    margin: 0;
-  }
-  .content {
-    margin-top: 2rem;
-  }
-  .wrapper {
-    min-height: 100vh;
-    padding-top: 1rem;
-  }
-
-  .banner {
-    min-width: 400px;
-    width: 100%;
-  }
-
-  h1,
-  h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
-  .intro {
-    margin-bottom: 1rem;
-  }
-  .icon {
-    width: 35px;
-    align-items: center;
-  }
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    border-radius: 10px;
-  }
-
-  .video-container iframe,
-  .video-container object,
-  .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

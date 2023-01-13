@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "An introduction to time-restricted eating"
 description: "Time-restricted eating: Eat in sync with your inner clock"
 publishDate: "8 Nov 2022 07:45"

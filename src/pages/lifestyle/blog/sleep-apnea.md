@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "Sleep apnea - a commonly undiagnosed condition with potentially serious complications"
 description: "Sleep apnea is a commonly undiagnosed medical condition that intermittently stops your breathing at night and can be a cause of a myriad of health complications."
 publishDate: "27 Nov 2022 11:30"

@@ -13,15 +13,24 @@ const posts = unsortedPosts
 ---
 
 <div>
-  <h2>Recent posts</h2>
+  <h2>Read more</h2>
   <section aria-label="Blog post list">
-    {
-      posts.map(({ url, frontmatter }) => (
-        <a href={url}>
-          <h3 class="title">{frontmatter.title}</h3>
-        </a>
-      ))
-    }
+    <div class="recent-posts">
+      <div class="recent-posts">
+        {
+          posts.map(({ url, frontmatter }) => (
+            <a href={url}>
+              <div
+                class="recent-post"
+                style={`background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(${frontmatter.heroImage.src})`}
+              >
+                <h4>{frontmatter.title}</h4>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </section>
 
   <style>

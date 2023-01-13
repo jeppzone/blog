@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "I quit caffeine cold turkey"
 description: "I quit caffeine cold turkey: Here's what happened. Caffeine explained"
 publishDate: "13 Nov 2022 07:53"

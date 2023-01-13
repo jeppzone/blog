@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/BlogPost.astro"
+layout: "../../../layouts/LifestyleBlogPost.astro"
 title: "The dangers of mouth breathing - And why I tried mouth taping for a week"
 description: "Mouth breathing is a seldom-assessed condition that can have potentially severe consequences. A lot of people suffer from it without even knowing."
 publishDate: "4 Dec 2022 10:25"
