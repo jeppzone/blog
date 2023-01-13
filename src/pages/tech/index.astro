@@ -1,8 +1,7 @@
 ---
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
-import BlogPostPreview from "../../components/BlogPostPreview.astro";
-import LifestyleFooter from "../../components/LifestyleFooter.astro";
+import TechFooter from "../../components/TechFooter.astro";
 
 let title = "Jeppzone Tech Landingpage";
 let description = "This site contains information about what resources are available for Jeppzone Tech";
@@ -28,40 +27,39 @@ let description = "This site contains information about what resources are avail
         </section>
       </main>
     </div>
+    <TechFooter />
+    <style>
+      body {
+        margin: 0;
+      }
+      .content {
+        margin-top: 2rem;
+      }
+      .wrapper {
+        min-height: 100vh;
+        padding-top: 1rem;
+      }
+
+      .banner {
+        min-width: 400px;
+        width: 100%;
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      .intro {
+        margin-bottom: 1rem;
+        border-bottom: 4px solid var(--theme-divider);
+      }
+      .icon {
+        width: 35px;
+        align-items: center;
+      }
+    </style>
   </body>
-  <LifestyleFooter />
 </html>
-
-<style>
-  body {
-    margin: 0;
-  }
-  .content {
-    margin-top: 2rem;
-  }
-  .wrapper {
-    min-height: 100vh;
-    padding-top: 1rem;
-  }
-
-  .banner {
-    min-width: 400px;
-    width: 100%;
-  }
-
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
-  .intro {
-    margin-bottom: 1rem;
-    border-bottom: 4px solid var(--theme-divider);
-  }
-  .icon {
-    width: 35px;
-    align-items: center;
-  }
-</style>
