@@ -4,7 +4,7 @@ import Header from "../components/Header.astro";
 import Profile from "../components/Profile.astro";
 import Footer from "../components/Footer.astro";
 
-let title = "About Jesper 'Jeppzone' Olsson Laine";
+let title = "About Jesper 'Jeppzone' Olsson Laine | Jeppzone.com";
 let description =
   "Hi! I'm Jesper. A software developer by profession and a health enthusiast and gamer by heart. In this section I tell you more about myself and my projects";
 ---
@@ -26,15 +26,13 @@ let description =
       </main>
     </div>
     <Footer />
-  </body>
+  </body><style>
+    body {
+      margin: 0;
+    }
+    .wrapper {
+      min-height: 100vh;
+      padding-top: 3rem;
+    }
+  </style>
 </html>
-
-<style>
-  body {
-    margin: 0;
-  }
-  .wrapper {
-    min-height: 100vh;
-    padding-top: 3rem;
-  }
-</style>
