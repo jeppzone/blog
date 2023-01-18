@@ -6,7 +6,7 @@ publishDate: "9 Jan 2023 09:00"
 heroImage:
   src: "https://i.ibb.co/WgzRkBq/Pexels-karolina-grabowska-4047146.jpg"
   alt: "Tubes of blood"
-canonicalUrl: "https://jeppzone.com/posts/the-perks-of-being-a-blood-donor/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/the-perks-of-being-a-blood-donor/"
 ---
 
 ## Introduction to blood donation and why it’s so important

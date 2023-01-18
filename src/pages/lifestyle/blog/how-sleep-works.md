@@ -6,7 +6,7 @@ publishDate: "20 Nov 2022 17:30"
 heroImage:
   src: "https://i.ibb.co/Q8zHTsy/Sleep.webp"
   alt: "A cat sleeping"
-canonicalUrl: "https://jeppzone.com/posts/how-sleep-works/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/how-sleep-works/"
 ---
 
 ## An introduction to sleep

@@ -6,7 +6,7 @@ publishDate: "4 Dec 2022 10:25"
 heroImage:
   src: "https://i.ibb.co/Jj0wySm/Breather.jpg"
   alt: "The word 'Breathe' spelled out"
-canonicalUrl: "https://jeppzone.com/posts/the-dangers-of-mouth-breathing/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/the-dangers-of-mouth-breathing/"
 ---
 
 If you saw the first season of Stranger Things, you probably remember that the first smear word that Mike taught Eleven was _mouth-breather_. But why is that a smear word in the first place? In this post, we investigate the differences between nose breathing and mouth breathing, and why we might prefer the former.

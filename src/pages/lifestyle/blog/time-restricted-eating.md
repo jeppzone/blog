@@ -6,7 +6,7 @@ publishDate: "8 Nov 2022 07:45"
 heroImage:
   src: "https://i.ibb.co/GV3cMcY/Clock.webp"
   alt: "Clock"
-canonicalUrl: "https://jeppzone.com/posts/time-restricted-eating/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/time-restricted-eating/"
 ---
 
 ## Introduction

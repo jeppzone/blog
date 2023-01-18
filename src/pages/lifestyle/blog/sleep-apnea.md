@@ -6,7 +6,7 @@ publishDate: "27 Nov 2022 11:30"
 heroImage:
   src: "https://i.ibb.co/rm33cG1/Sleepy.jpg"
   alt: "Tired woman"
-canonicalUrl: "https://jeppzone.com/posts/sleep-apnea/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/sleep-apnea/"
 ---
 
 Do you snore loudly at night? Do you have a hard time staying asleep? Do you wake up with a dry mouth and a headache? Then you might be suffering from a potentially serious condition called sleep apnea.

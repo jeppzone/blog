@@ -6,7 +6,7 @@ publishDate: "29 Dec 2022 13:50"
 heroImage:
   src: "https://i.ibb.co/zFPFp3L/Newyear.jpg"
   alt: "Fireworks at new year"
-canonicalUrl: "https://jeppzone.com/posts/the-psychology-of-new-years-resolutions/"
+canonicalUrl: "https://jeppzone.com/lifestyle/blog/the-psychology-of-new-years-resolutions/"
 ---
 
 ## New year's resolutions
